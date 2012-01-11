@@ -1,0 +1,163 @@
+body {
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	background-color: #eff2f3;	
+	}
+
+#center-container {
+	width: 968px;
+ 	margin: 0 auto;
+	overflow: hidden;		
+	}
+
+/*Menu en banners*/	
+#banner {
+	position: relative;
+	height: 150px;	
+	}
+
+#top-menu {
+	margin-top: -15px; 
+	float: left;		
+	}
+#top-menu p {
+	color: #007ed3;		
+	font-size: 10pt;		
+	}
+#searchbar {
+	margin-top: 50px; 
+	margin-left: 100px;
+	float: right;
+	}
+	
+#horizontal-menubar {
+	background-image: url(../images/navbar.gif);
+	background-repeat: repeat-x;
+	height: 45px;
+	width: 966px;
+	position: absolute;
+	bottom: 0px;
+	border: 1px solid #606060;	
+	}
+	
+#horizontal-menu {
+	position: absolute;
+	bottom: 0px;
+	margin-left: 85px;		
+	}
+	
+/*Het gedeelte waar tekst etc. komt.*/	
+#main-body {
+	background-color: #fff; 
+	margin-top: 5px;
+	margin-bottom: 10px;
+	}
+	
+#left-box {
+	width: 160px;
+	float: left;		
+	margin: 0;
+	}
+
+#center-box {	
+	float: left;		
+	margin: 0px 10px 10px 10px;
+	}
+
+#right-box {
+	width: 160px;
+	float: right;
+	margin: 0;		
+	}
+
+/*Wanneer je maar een box op de gehele pagina gebruikt (geen ID gebruiken)*/
+.solo {
+	width: 900px;
+	margin: 0px 10px 10px 20px;
+	} 
+
+/*Wanneer je een center-box gebruikt icm een smalle box aan een van de zijkanten.*/
+.wide {
+	width: 755px;
+	}
+	
+/*Wanneer je een center-box gebruikt icm twee smalle box aan de zijkanten.*/
+.small{
+	width: 590px;
+	}	
+
+	
+	
+/*Box met afgeronde hoeken.*/
+.rounded-box {
+	background: url(../images/rounded_sections/right.png) repeat-y left top; 
+	}
+.top {
+	background: url(../images/rounded_sections/top_left.png) no-repeat top left;
+	}
+.top div {
+	background: url(../images/rounded_sections/top_right.png) no-repeat top right;
+	}
+	
+.bottom {
+	background: url(../images/rounded_sections/bottom_left.png) no-repeat bottom left;
+	margin-top: -19px;
+	}
+.bottom div {
+	background: url(../images/rounded_sections/bottom_right.png) no-repeat bottom right;
+	}
+.content {
+	background: url(../images/rounded_sections/right.png) repeat-y right top;
+	margin-top: -22px;
+	padding: 0 15px;
+	}
+
+.top div,.top,
+.bottom div, .bottom {
+	width: 100%;
+	height: 15px;
+	font-size: 1px;
+	}
+
+/*Box met afgeronde hoeken incl. schaduw onder: http://www.search-this.com/2007/02/12/css-liquid-round-corners/*/
+.round-shadow {    
+    background:#fff url(../images/rounded_main/leftside.gif) repeat-y left top;
+}	
+.top-shadow  {
+    width:100%;
+    height:20px;
+    background:url(../images/rounded_main/top.gif) no-repeat left top;
+    }
+.top-shadow div {
+    display:block;
+    position:relative;
+    height:20px;
+    background:url(../images/rounded_main/top-right.gif) no-repeat right top;
+    }
+.center-content-shadow  {
+    position:relative;
+    background:url(../images/rounded_main/rightside.gif) repeat-y right top;
+    padding:0px 15px 50px 15px;
+    margin:-1px 0 -50px 0;    
+    overflow: hidden;    
+    }
+.bottom-shadow  {
+    height:60px;
+    background:url(../images/rounded_main/bottom.gif) no-repeat left bottom;
+    }
+.bottom-shadow div {
+    display:block;
+    position:relative;
+    height:60px;
+    background:url(../images/rounded_main/bottom-right.gif) no-repeat right top;
+    }
+    
+    /*Font styles*/
+    p {
+		font-family: "Myriad Pro", Arial, Verdana, Helvetica, sans-serif;    	
+    	}
+
+
+
+
+
