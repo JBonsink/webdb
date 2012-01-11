@@ -1,0 +1,120 @@
+body {
+	background-image: url(images/header.gif);
+	background-repeat: repeat-x;
+	background-color: #EFF2F3;	
+	}
+
+#container {
+	width: 968px;
+ 	margin: 0 auto;
+	overflow: hidden;	
+	}
+	
+#banner {
+	position: relative;
+	height: 150px;	
+	margin-bottom: 5px;
+	}
+	
+#horizontal-menu {
+	background-image: url(images/navbar.gif);
+	background-repeat: repeat-x;
+	height: 45px;
+	width: 966px;
+	position: absolute;
+	bottom: 0px;
+	border: 1px solid #606060;	
+	}
+	
+#main-body {
+	background-color: #FFFFFF; 
+	margin-bottom: 10px;
+	}
+	
+#left-box {
+		width: 160px;
+		float: left;		
+		margin: 0;
+	}
+
+#center-box {
+		width: 565px;
+		float: left;		
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+#right-box {
+		width: 160px;
+		float: right;
+		margin: 0;		
+	}
+	
+	
+/*Rounded corners*/
+.rounded-box {
+	background: url(images/rounded_sections/top_left.png) no-repeat top left;
+	}
+.top {
+	background: url(images/rounded_sections/top_right.png) no-repeat top right;
+
+	}
+.bottom {
+	background: url(images/rounded_sections/bottom_left.png) no-repeat bottom left;
+	margin-top: -19px;
+	}
+.bottom div {
+	background: url(images/rounded_sections/bottom_right.png) no-repeat bottom right;
+	}
+.content {
+	background: url(images/rounded_sections/right.png) top right repeat-y;
+	margin-top: -19px;
+	padding: 0 15px;
+	}
+
+.top div,.top,
+.bottom div, .bottom {
+	width: 100%;
+	height: 15px;
+	font-size: 1px;
+	}
+
+/*Rounded corners with shadow: http://www.search-this.com/2007/02/12/css-liquid-round-corners/*/
+.round-shadow {    
+    background:#FFFFFF url(images/rounded_main/leftside.gif) repeat-y left top;
+}
+	
+.top-shadow  {
+    width:100%;
+    height:20px;
+    background:url(images/rounded_main/top.gif) no-repeat left top;
+    }
+.top-shadow div {
+    display:block;
+    position:relative;
+    height:20px;
+    background:url(images/rounded_main/top-right.gif) no-repeat right top;
+    }
+.center-content-shadow  {
+    position:relative;
+    background:url(images/rounded_main/rightside.gif) repeat-y right top;
+    padding:1px 25px 30px 25px;
+    margin:-1px 0 -50px 0;    
+    overflow: hidden;
+    text-align: center;
+    }
+.bottom-shadow  {
+    height:60px;
+    background:url(images/rounded_main/bottom.gif) no-repeat left bottom;
+    }
+.bottom-shadow div {
+    display:block;
+    position:relative;
+    height:60px;
+    background:url(images/rounded_main/bottom-right.gif) no-repeat right top;
+    }
+
+
+
+
+
