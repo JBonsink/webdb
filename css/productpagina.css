@@ -1,0 +1,13 @@
+.filter {
+	font-size: 10pt;
+	}
+   
+.float img {
+	float: top;
+	margin: 0 0px;
+	margin-top: 30px;
+	}
+	
+p {
+	font-family: "Myriad Pro", Arial, Verdana, Helvetica, sans-serif;    	
+   }

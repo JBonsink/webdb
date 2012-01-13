@@ -39,25 +39,25 @@
 		/* Non-first level */
 		ul.dropdown ul *.dir {
 		 padding-right: 15px;
-		 background-image: url(../../../../images/mtv.com/nav-arrow-right.png);
+		 background-image: url(../../../../images/menu-bar/nav-arrow-right.png);
 		 background-position: 100% 50%;
 		 background-repeat: no-repeat;
 		}
 
 		ul.dropdown ul ul *.dir {
-		 background-image: url(../../../../images/mtv.com/nav-arrow-right2.png);
+		 background-image: url(../../../../images/menu-bar/nav-arrow-right2.png);
 		}
 
 
 	/* Components override */
 
 	ul.dropdown-vertical *.dir {
-	 background-image: url(../../../../images/mtv.com/nav-arrow-right.png);
+	 background-image: url(../../../../images/menu-bar/nav-arrow-right.png);
 	}
 
 	ul.dropdown-vertical-rtl *.dir {
 	 padding-right: 15px;
-	 background-image: url(../../../../images/mtv.com/nav-arrow-left.png);
+	 background-image: url(../../../../images/menu-bar/nav-arrow-left.png);
 	 background-position: 0 50%;
 	}
 
@@ -99,12 +99,12 @@
 
 		ul.dropdown ul a.dir:hover { /* proposal */
 		 background-color: #4698ca;
-		 background-image: url(../../../../images/mtv.com/comnav-arrowon.png);
+		 background-image: url(../../../../images/menu-bar/comnav-arrowon.png);
 		 color: #fff;
 		}
 
 		ul.dropdown a:active {
-		 background: #058acf url(../../../../images/mtv.com/nav-sub-press.png) 0 0 repeat-x !important;
+		 background: #058acf url(../../../../images/menu-bar/nav-sub-press.png) 0 0 repeat-x !important;
 		 color: #fff;
 		}
 

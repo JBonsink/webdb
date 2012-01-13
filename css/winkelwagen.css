@@ -1,0 +1,24 @@
+.product {
+	min-height:100px;
+}
+
+.productimg {
+	float:left;
+}
+
+.description {
+	float:left;
+	width:400px;
+}
+
+.amount {
+	float:right;
+}
+
+.productlist {
+}
+
+.totaal {
+	float:right;
+}
+
