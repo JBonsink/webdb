@@ -1,0 +1,137 @@
+#platformbanner {
+	margin-bottom: 10px;	
+	}
+	
+#gallery-box {
+	width: 708px;	
+	float: left;		
+	margin: 0px 10px 15px 10px;
+	}
+	
+#gallery-box .content{
+	height:420px;
+	}
+	
+#overview-box {
+	width: 708px;	
+	float: left;		
+	margin: 0px 35px 15px 35px;
+	}
+
+#overview-box .content{
+	height:1025px;
+	margin-top: 0px;	
+	}	
+	
+#product-container {
+	position:relative;
+	width:696px;
+	padding-bottom: 10px;
+	float:left;
+	margin-top: 25px;
+}
+
+#side-box {
+	width: 210px;
+	float: right;
+	margin: 0;		
+	}
+
+#product {
+	display:block;
+	min-height:50px;
+	width:129px;
+	float:left;
+	margin-right:8px; /* was 5px */
+	border:0px solid red;
+}
+
+.product_foto img {position:absolute;top:0;bottom:0;margin:auto;width:112px;left:8px;}
+.psp img {position:absolute;top:0;bottom:0;margin:auto;width:92px;left:18px;;}
+
+.product_foto {
+	position:relative;
+	width:129px;
+	height:174px;
+	background:url(../images/bg_product.png) no-repeat;
+	margin-bottom:7px;
+}
+#product .product_naam {
+	font-size:12px;
+	font-weight:bold;
+	height:25px;
+}
+#product .product_naam a {
+	text-decoration:none;
+	font-size:14px;
+}
+#product .product_console {
+	color:#838383;
+	font-size:14px;
+}
+#product .product_prijs {
+	font-size:20px;
+}
+#producthead1 h1 {
+	color:#222a30;
+	font-size:20px;
+	font-weight:normal;	
+	margin:0;
+}
+#producthead1 h2 {
+	color:#222a30;
+	font-size:14px;
+	font-weight:normal;	
+	margin:0;	
+}
+
+#producthead2 {
+	float:left;
+	width:256px; /* 292 - 36 */
+	padding:64px 10px 8px 36px;
+	background:url('/images/bg_producthead2.png') no-repeat;
+}
+#producthead2 .bestel {
+	float:left;
+	width:140px;
+	height:42px;
+	margin-top:4px;
+}
+#producthead2 .prijs {
+	color:#383c3f;
+	font-size:36px;
+	float:right;
+	width:100px;
+	height:42px;
+}
+
+#productinfo {
+	clear:both;
+	margin-top:16px;
+	margin-bottom:20px;
+}
+
+img.deel {
+	border:1px solid #c9c9c9;
+	margin-right:6px;	
+}
+
+.bestelbutton {
+	display:block;
+	font-family:"Myriad Pro", Arial, Verdana, Helvetica, sans-serif;
+	height:19px; /* 25- 4 */
+	padding-top:2px;
+	font-size:13px;
+	background:url(../images/bestelbutton.png);
+	background-repeat:repeat-x;
+	text-transform:uppercase;
+	width:129px;
+	color:white;
+	text-align:center;	
+	text-decoration:none;
+	margin-bottom:6px
+}
+.bestelbutton:hover {
+	color:white;
+	background:#364753
+}

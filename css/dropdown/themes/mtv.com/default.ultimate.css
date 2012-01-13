@@ -84,16 +84,16 @@ ul.dropdown ul a.dir {
 
 
 ul.dropdown *.open {
- background-color: #3d3d3d;
+ background-color: #3d3d3d; 
 }
 ul.dropdown ul *.open {
  background-color: #4c4c4c;
- background-image: url(../../../../images/mtv.com/comnav-arrowover.png);
+ background-image: url(../../../../images/menu-bar/comnav-arrowover.png);
  color: #fff;
 }
 ul.dropdown ul ul *.open {
  background-color: #595959;
- background-image: url(../../../../images/mtv.com/comnav-arrowover2.png);
+ background-image: url(../../../../images/menu-bar/comnav-arrowover2.png);
  color: #fff;
 }
 /* Override UPPER TWO definitions */
@@ -102,7 +102,7 @@ ul.dropdown a.open:hover {
  color: #fff;
 }
 ul.dropdown ul a.open:hover {
- background-image: url(../../../../images/mtv.com/comnav-arrowon.png);
+ background-image: url(../../../../images/menu-bar/comnav-arrowon.png);
  color: #fff;
 }
 
@@ -114,11 +114,11 @@ ul.dropdown li:hover > *.dir {
 }
 ul.dropdown ul li:hover > *.dir {
  background-color: #4c4c4c;
- background-image: url(../../../../images/mtv.com/comnav-arrowover.png);
+ background-image: url(../../../../images/menu-bar/comnav-arrowover.png);
 }
 ul.dropdown ul ul li:hover > *.dir {
  background-color: #595959;
- background-image: url(../../../../images/mtv.com/comnav-arrowover2.png);
+ background-image: url(../../../../images/menu-bar/comnav-arrowover2.png);
  color: #fff;
 }
 
@@ -128,6 +128,6 @@ ul.dropdown li:hover > a.dir:hover {
  color: #fff;
 }
 ul.dropdown ul li:hover > a.dir:hover {
- background-image: url(../../../../images/mtv.com/comnav-arrowon.png);
+ background-image: url(../../../../images/menu-bar/comnav-arrowon.png);
  color: #fff;
 }

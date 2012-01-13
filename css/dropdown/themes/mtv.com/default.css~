@@ -70,8 +70,7 @@
 
 	/* ALL LEVELS (incl. first) */
 
-	.first {
-		color: #eff2f3;		
+	.first {		
 		}
 
 	ul.dropdown {
