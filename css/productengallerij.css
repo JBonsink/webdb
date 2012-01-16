@@ -36,7 +36,16 @@
 	float: right;
 	margin: 0;		
 	}
-
+#side-box .content{
+	height:420px;
+	}
+#dailysales-container {
+	position:relative;
+	width:200px;
+	padding-bottom: 10px;
+	float:left;
+	margin-top: 25px;
+	}
 #product {
 	display:block;
 	min-height:50px;

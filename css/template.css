@@ -18,18 +18,18 @@ body {
 
 #top-menu {	 
 	height: 30px;
-	width: 700px;
+	width: 710px;
 	float: left;		
 	}	
 	
 #shopping-cart {	
 	float: left;
 	height: 30px;
-	width: 243px;	
+	width: 223px;	
 	background-image: url(../images/shopping-cart.png);
 	background-repeat: no-repeat;
 	background-position: 0% -60%;
-	padding-left: 25px;
+	padding-left: 35px;
 	}
 		
 #logo {
@@ -48,7 +48,7 @@ body {
 
 #searchbar form {
 	position: relative;
-	top: 20px;	
+	top: 25px;	
 	left: 22px;
 	}
 
