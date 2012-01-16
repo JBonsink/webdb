@@ -55,7 +55,7 @@ body {
 	
 #horizontal-menubar {
 	background-image: url(../images/navbar.gif);
-	background-repeat: repeat-x 0 0;
+	background-repeat: repeat-x;
 	height: 35px;
 	width: 968px;	
 	border: 1px solid #606060;
