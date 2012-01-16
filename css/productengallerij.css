@@ -27,7 +27,7 @@
 	}
 
 #overview-box .content{
-	height:1025px;
+	height:1050px;
 	margin-top: 0px;	
 	}	
 	
@@ -36,7 +36,7 @@
 	width:696px;
 	padding-bottom: 10px;
 	float:left;
-	margin-top: 25px;
+	margin-bottom: 10px;
 }
 
 /*De side box bevat de dagaanbieding.*/
@@ -192,7 +192,8 @@ img.deel {
 }
 
 hr {
-	margin-top:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	clear:both;
 	height:4px;
 	border:0;
