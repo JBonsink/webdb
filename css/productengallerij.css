@@ -1,23 +1,17 @@
-/*CSS regels voor de productgallerij op de algemene home page en de platform pagina's.
-  N.B. Het is gebasseerd op de styling/css van mediaoffer.nl.
-*/
-
 #platformbanner {
 	margin-bottom: 10px;	
 	}
-
-/*Gallery box bevat 5 afbeeldingen naast elkaar.*/
+	
 #gallery-box {
 	width: 708px;	
 	float: left;		
-	margin: 0px 10px 15px 0px;
+	margin: 0px 10px 15px 10px;
 	}
 	
 #gallery-box .content{
 	height:420px;
 	}
-
-/*Overview box bevat 4 regels van 5 afbeeldingen.*/
+	
 #overview-box {
 	width: 708px;	
 	float: left;		
@@ -37,14 +31,13 @@
 	margin-top: 25px;
 }
 
-/*De side box bevat de dagaanbieding.*/
 #side-box {
-	width: 220px;
+	width: 210px;
 	float: right;
 	margin: 0;		
 	}
 #side-box .content{
-	height:840px;
+	height: 710px;
 	}
 #dailysales-container {
 	position:relative;
@@ -53,15 +46,13 @@
 	float:left;
 	margin-top: 25px;
 	}
-#side-box #product-container {
+#spotlight-container {
 	position:relative;
-	width:190px;
+	width:200px;
 	padding-bottom: 10px;
 	float:left;
 	margin-top: 25px;
-}
-	
-/*Regels voor de individuele styling van de producten*/
+	}
 #product {
 	display:block;
 	min-height:50px;
@@ -71,13 +62,8 @@
 	border:0px solid red;
 }
 
-.product_foto img {
-	position:absolute;
-	top:0;
-	bottom:0;
-	margin:auto;
-	width:112px;
-	left:8px;}
+.product_foto img {position:absolute;top:0;bottom:0;margin:auto;width:112px;left:8px;}
+.psp img {position:absolute;top:0;bottom:0;margin:auto;width:92px;left:18px;;}
 
 .product_foto {
 	position:relative;
@@ -146,60 +132,6 @@ img.deel {
 	margin-right:6px;	
 }
 
-/*Regels voor de styling van de dagaanbiedingen*/
-#product-container .aanbieding {
-	float:left;
-}
-#product-container .aanbieding-info {
-	float:left;
-	margin-top:20px;
-	margin-left:2px;
-	color:white;
-	border:0px solid red;
-}
-#product-container .datum {
-	background-image:url(../images/bg_aanbieding_datum.png);
-	background-repeat:no-repeat;
-	width:39px; /* 55 - 16 */
-	height:41px;
-	margin-top:18px;
-	margin-bottom:6px;
-	padding-left:10px;
-	padding-right:4px;
-	padding-top:8px;
-	text-transform:uppercase;
-	font-size:14px;
-	text-align:center;
-}
-#product-container .prijs {
-	background-image:url(../images/bg_aanbieding_prijs.png);
-	background-repeat:no-repeat;
-	width:44px; /* 55-11 */
-	height:23px; /* 50 - 28 */
-	padding-left:15px;
-	padding-top:25px;
-	color:white;
-	font-size:14px;
-}
-#product-container .aanbieding_naam {
-	color:#838383;
-	font-weight:bolder;
-	font-size:14px;	
-}
-
-hr {
-	margin-top:20px;
-	clear:both;
-	height:4px;
-	border:0;
-	background:url(../images/hr.png) repeat-x;
-}
- 
-.clear {
-	clear:both;
-}
-
-
 .bestelbutton {
 	display:block;
 	font-family:"Myriad Pro", Arial, Verdana, Helvetica, sans-serif;
@@ -215,7 +147,6 @@ hr {
 	text-decoration:none;
 	margin-bottom:6px
 }
-
 .bestelbutton:hover {
 	color:white;
 	background:#364753
