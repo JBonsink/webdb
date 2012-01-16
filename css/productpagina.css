@@ -1,13 +1,25 @@
-.filter {
-	font-size: 10pt;
-	}
-   
-.float img {
-	float: top;
-	margin: 0 0px;
-	margin-top: 30px;
+img {
+	margin-right: 20px;
 	}
 	
-p {
-	font-family: "Myriad Pro", Arial, Verdana, Helvetica, sans-serif;    	
-   }
+.bestelbutton_1 {
+	display:block;
+	font-family:"Myriad Pro", Arial, Verdana, Helvetica, sans-serif;
+	height:19px; /* 25- 4 */
+	padding-top:2px;
+	font-size:13px;
+	background:url(../images/bestelbutton.png);
+	background-repeat:repeat-x;
+	text-transform:uppercase;
+	width:129px;
+	color:white;
+	text-align:center;	
+	text-decoration:none;
+	margin-bottom:6px;
+	float: right;
+}
+
+.bestelbutton:hover {
+	color:white;
+	background:#364753
+}
