@@ -43,19 +43,17 @@
 #side-box {
 	background-color: #fcfcfc;
 	width: 220px;
-	float: right;
-	margin: 0;		
+	float: right;			
 	}
 #side-box .content{
-	height:840px;
+	height:560px;
 	}
 
-#spotlight-container {
-	position:relative;
+#spotlight-container {	
 	width:200px;
 	padding-bottom: 10px;
 	float:left;
-	margin-top: 25px;
+	margin-left: 29px;	
 	}
 
 #side-box #product-container {
