@@ -181,20 +181,16 @@ body {
     /*Font styles*/
 p, a {
 	font-family: "Myriad Pro", Arial, Verdana, Helvetica, sans-serif;
-	font-size: 11pt;
-	margin-top: 15px;
+	font-size: 11pt;    	
    }
 h1 {
 	color: #1777AA;
-	margin-top: 15px;
 	}
 h2 {
 	color: #3897ea;
-	margin-top: 15px;
 	}
 h3 {
 	color: #15a8ed;
-	margin-top: 15px;
 	}
 
 #banner p, #banner #top-menu a, #banner #shopping-cart a {
@@ -203,10 +199,6 @@ h3 {
 	font-size: 10pt;
 	margin: 0;
 	padding: 0;		
-	}
-
-#horizontal-menubar a {
-	margin: 0;
 	}
 
 #banner #top-menu a:hover, #banner #shopping-cart a:hover {
