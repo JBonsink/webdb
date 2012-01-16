@@ -1,0 +1,122 @@
+#type {
+	float:left;
+	margin-left:35px;
+}
+
+#filter {
+	float:left;
+	margin-left:100px;
+}
+
+#search {
+	float:right;
+	margin-right:25px;
+}
+
+
+/*Product toevoegen*/
+p.descriptionlabel {
+	float:left;
+}
+
+p.price {
+	margin-left:46px;
+}
+
+p.name {
+	margin-left:36px;
+}
+
+p.stock {
+	margin-left:16px;
+}
+
+p.img {
+	float:right;
+}
+
+p.add {
+	margin-left:90px;
+}
+
+p.category {
+	margin-left:20px;
+}
+
+p.productid {
+	margin-left:10px;
+}
+
+
+/*bestelling*/
+p.orderid {
+	margin-left:6px;
+}
+
+p.products {
+	margin-left:6px;
+}
+
+.productname {
+	margin-left:146px;
+}
+
+p.customerid {
+	margin-left:36px
+}
+
+.amount {
+	margin-left:164px;
+}
+
+.price {
+	margin-left:14px;
+}
+
+/*account*/
+p.area {
+	margin-left:4px;
+}
+
+p.email {
+	margin-left:70px;
+}
+
+p.mobile {
+	margin-left:70px;
+}
+
+p.company {
+	margin-left:70px;
+}
+
+p.address {
+	margin-left:52px;
+}
+
+p.birthday {
+	margin-left:8px;
+}
+
+p.lastname {
+	margin-left:34px;
+}
+
+p.firstname {
+	margin-left:46px;
+}
+
+p.sex {
+	margin-left:124px;
+}
+
+p.loginname {
+	margin-left:6px;
+}
+
+p.customerid2 {
+	margin-left:63px;
+}
+
+
+
