@@ -5,14 +5,14 @@
  *
  * @file		dropdown.css
  * @package		Dropdown
- * @version		0.8
+ * @version		0.7.1
  * @type		Transitional
  * @stacks		597-599
  * @browsers	Windows: IE6+, Opera7+, Firefox1+
  *				Mac OS: Safari2+, Firefox2+
  *
  * @link		http://www.lwis.net/
- * @copyright	2006-2008 Live Web Institute
+ * @copyright	2006-2008 Live Web Institute. All Rights Reserved.
  *
  */
 
@@ -39,6 +39,7 @@ ul.dropdown li {
 
 ul.dropdown li.hover,
 ul.dropdown li:hover {
+ height: 32px;
  position: relative;
  z-index: 599;
  cursor: default;
